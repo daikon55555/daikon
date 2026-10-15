@@ -1,10 +1,27 @@
-// Online C compiler (editor)
-// Write and run C online using this editor.
-
 #include <stdio.h>
 
 int main() {
 
-    printf("Try clicking the Run button.");
-    return 0;
+    
+int escolha, palpite;
+    printf ("escolha um numero de 1 a 1000\n\n");
+    scanf ("%d", &escolha);
+    printf ("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    
+while (palpite !=escolha)
+
+{ printf ("\npalpite\n");
+    scanf ("%d", &palpite);
+
+if (palpite == escolha)
+    
+    { printf ("Ganhou !!!\n\n"); }
+    
+    else if (palpite < escolha)
+             
+    { printf ("o numero e maior"); }
+                        
+    else printf ("o numero e menor");
+ }
+
 }
