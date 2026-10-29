@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 int main(){
 int contador,turma;
@@ -15,5 +14,7 @@ contador=0;
             var[contador]=contador+1;
             printf("var[%d",contador);
             printf("]=%d",var[contador]);
+            contador++;
             
         }
+}
